@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://bbfhwuoduwjuy"]
+
+[ext_resource type="PackedScene" uid="uid://dv1qojw4qb5hj" path="res://scenes/splash.tscn" id="1_g4rje"]
+[ext_resource type="PackedScene" uid="uid://b1op3vyakvobt" path="res://scenes/account_info.tscn" id="2_crpou"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Splash" parent="." instance=ExtResource("1_g4rje")]
+
+[node name="AccountInfo" parent="." instance=ExtResource("2_crpou")]
+anchors_preset = 11
+anchor_left = 1.0
+offset_left = 219.0
+offset_top = 151.0
+offset_right = 519.0
+offset_bottom = 351.0
+grow_horizontal = 0
+size_flags_horizontal = 6
+size_flags_vertical = 2

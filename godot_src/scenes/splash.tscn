@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://dv1qojw4qb5hj"]
+
+[ext_resource type="Texture2D" uid="uid://demt3as0v801g" path="res://icon.svg" id="1_r6kjx"]
+
+[node name="Splash" type="Node"]
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_left = 213.0
+offset_top = 63.0
+offset_right = 380.0
+offset_bottom = 98.0
+scale = Vector2(2, 2)
+text = "Den Prototype"
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(124, 115)
+texture = ExtResource("1_r6kjx")
